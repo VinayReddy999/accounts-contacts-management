@@ -1,0 +1,12 @@
+<template>
+    
+    <lightning-datatable 
+    key-field="Id"
+    columns={columns}
+    data = {accDetails.data}
+    hide-checkbox-column = "true"
+    show-row-number-column="true" 
+    onrowaction={rowHandler}>
+    </lightning-datatable>
+
+</template>
